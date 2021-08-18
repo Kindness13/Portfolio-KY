@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+   position: fixed;
+   width: 100%;
+    background:navy;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: blue;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 55px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: blue;
+}
+/* home section styling */
+.home{
+    display: flex;
+    background: url('../IMAGE/pexels-daria-shevtsova-705675.jpg') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.text-1{
+    color: yellow;
+}
+.home .home-content .text-1{
+font-size: 35px;
+font-weight: 600;
+margin-left: 3px;
+color: white;
+}
+.home .home-content .text-2{
+    font-size: 55px;
+    font-weight: 600;
+    margin-left: 3px;}
+    .home .home-content .text-3{
+        font-size: 40px;
+        margin: 5px 0;
+    }
+    .home .home-content .text-3 span{
+    color: blue;
+    font-weight: 500;}
+    .home .home-content a{
+        display: inline-block;
+        background: blue;
+        color: white;
+        font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid blue;
+    transition: all 0.3s ease;
+    }
+    .home .home-content a:hover{
+        color: blue;
+        background: none;
+    }
+/* about section styling */
+section{
+    padding: 100px 0;
+}
+.about{
+    font-family: sans-serif;
+    background: white;
+}
+.about .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+font-family: sans-serif;
+}
+.services .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+font-family: sans-serif;
+}
+
+.about.title::before{
+    content: " who i am";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+    
+}
+.about.title::after{
+    content: "Who I Am";
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    font-size: 20px;
+    color: blue;
+    padding: 5px;
+    background: white;
+    transform: translateX(-50%);
+}
+.featured-image{
+    width: 400px;
+    height: 400px;
+    left: 458%;;
+}
+.text{
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: blue;
+}
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .about-content .left {
+width: 95%;
+}
+
+.about .about-content .right .text span{
+    color:black;
+}
+.text{
+    margin-left: 120px;
+    margin-top: 5px;
+    margin-right: 50px;
+    width: 80%;
+
+}
+.p{
+    text-align: justify;
+}
+/*services session styling*/
+.services{
+    color: #fff;
+    background: #111;
+}
+.services .serv-content .card{
+    width: 55% - 32px;
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+    background:crimson;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card .text{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+}
+.title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    
+font-family: sans-serif;
+}
+/*skills session styling*/
